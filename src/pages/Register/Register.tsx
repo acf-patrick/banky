@@ -8,6 +8,19 @@ const StyledContainer = styled.div`
 
   .form {
     flex-grow: 1;
+    position: relative;
+    background: #ffffff5a;
+
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      background-image: url("/images/form-bg.jpg");
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
   }
 `;
 

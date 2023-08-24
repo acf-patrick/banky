@@ -4,7 +4,8 @@ const theme = {
     secondary: "#DC5F00",
     tertiary: "#CF0A0A",
     quaternary: "#000000",
-    bg: "#F3D083"
+    bg: "#D4BA92",
+    border: "#bababaff",
   },
 };
 
