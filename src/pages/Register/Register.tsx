@@ -5,13 +5,19 @@ import Form from "./Form";
 const StyledContainer = styled.div`
   display: flex;
   height: 100vh;
+
+  .form {
+    flex-grow: 1;
+  }
 `;
 
 function Register() {
   return (
     <StyledContainer>
       <Image />
-      <Form />
+      <div className="form">
+        <Form />
+      </div>
     </StyledContainer>
   );
 }

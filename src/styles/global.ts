@@ -21,6 +21,7 @@ const GlobalStyles = createGlobalStyle`
 body {
   margin: unset;
   padding: unset;
+  color: ${({ theme }) => theme.colors.quaternary};
 }
 `;
 

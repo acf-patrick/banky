@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-const StyledLogo = styled.div`
+const StyledLogo = styled.span`
   font-family: "Aurella";
   font-size: 1.5rem;
   padding-left: 0.5rem;
